@@ -1,17 +1,17 @@
 # 2026 Homework 1 Implementation Plan
 
-Save location (raw): [cohorts/2026/HW1/homework1-plan.md](cohorts/2026/HW1/homework1-plan.md)
+Save location (raw): [cohorts/2026/HW1/guide/homework1-plan.md](homework1-plan.md)
 
-Spec: [cohorts/2026/homework1.md](../homework1.md)
+Spec: [cohorts/2026/homework1.md](../../homework1.md)
 
-Reuse TLS/import setup from [01-intro-and-data-sources/[2026]_Module_01_Colab_Introduction_and_Data_Sources.ipynb](../../01-intro-and-data-sources/[2026]_Module_01_Colab_Introduction_and_Data_Sources.ipynb): `truststore.inject_into_ssl()` before HTTPS, then `yfinance` / `requests`.
+Reuse TLS/import setup from [01-intro-and-data-sources/[2026]_Module_01_Colab_Introduction_and_Data_Sources.ipynb](../../../01-intro-and-data-sources/[2026]_Module_01_Colab_Introduction_and_Data_Sources.ipynb): `truststore.inject_into_ssl()` before HTTPS, then `yfinance` / `requests`.
 
 **Deliverable:** new notebook `cohorts/2026/HW1/homework1.ipynb` (one section per question) plus a short answers cell/block for the submission form: https://courses.datatalks.club/sma-zoomcamp-2026/homework/hw01
 
 ## Files
 
 - Create folder `cohorts/2026/HW1/`
-- Write raw plan: `cohorts/2026/HW1/homework1-plan.md` (this document, unrendered/raw markdown)
+- Write raw plan: `cohorts/2026/HW1/guide/homework1-plan.md` (this document, unrendered/raw markdown)
 - Create `cohorts/2026/HW1/homework1.ipynb`
 - Do not commit data CSVs
 

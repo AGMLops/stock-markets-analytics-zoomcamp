@@ -3,7 +3,7 @@
 from html import escape
 from pathlib import Path
 
-OUT = Path(__file__).with_name("homework1-guide.html")
+OUT = Path(__file__).resolve().parent.parent / "guide" / "homework1-guide.html"
 
 
 def pre(s: str) -> str:
@@ -656,7 +656,7 @@ a {{ color:var(--clay); }}
     <code>q6-ai-metrics/q6_ai_metrics.ipynb</code>,
     <code>homework1-answers.md</code>.
     Форма: <a href="https://courses.datatalks.club/sma-zoomcamp-2026/homework/hw01">hw01</a>.
-    Файл: <code>cohorts/2026/HW1/homework1-guide.html</code>
+    Файл: <code>cohorts/2026/HW1/guide/homework1-guide.html</code>
   </footer>
 </div>
 <script>

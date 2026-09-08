@@ -6,11 +6,11 @@ import html
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 HW1 = ROOT / "homework1.ipynb"
 Q5 = ROOT / "q5-ai-infra-capstone" / "q5_ai_infra_capstone.ipynb"
 Q6 = ROOT / "q6-ai-metrics" / "q6_ai_metrics.ipynb"
-OUT = ROOT / "homework1-guide.html"
+OUT = ROOT / "guide" / "homework1-guide.html"
 
 
 def load_nb(path: Path) -> dict:

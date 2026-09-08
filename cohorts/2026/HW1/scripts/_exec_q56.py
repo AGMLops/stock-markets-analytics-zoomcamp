@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 import nbformat
 from nbformat.v4 import new_output
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 NOTEBOOKS = [
     ROOT / "q5-ai-infra-capstone" / "q5_ai_infra_capstone.ipynb",
     ROOT / "q6-ai-metrics" / "q6_ai_metrics.ipynb",
